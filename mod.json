@@ -1,0 +1,25 @@
+{
+	"geode": "6.0.0-beta.1",
+	"gd": {
+		"win": "2.2091",
+		"android": "2.2091",
+		"mac": "2.2091",
+		"ios": "2.2091"
+	},
+	"id": "bigmancozmo.emotes-api-example",
+	"name": "Emotes API Example",
+	"version": "v1.0.0",
+	"developer": "Bigmancozmo",
+	"description": "",
+	"dependencies": {
+		"bigmancozmo.emotes-api": ">=v1.0.0-beta.1"
+	},
+	"resources": {
+		"spritesheets": {
+			"EmoteSheet": [
+				"res/*.png",
+				"res/*.jpg"
+			]
+		}
+	}
+}
