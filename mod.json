@@ -12,7 +12,7 @@
 	"developer": "Bigmancozmo",
 	"description": "",
 	"dependencies": {
-		"bigmancozmo.emotes-api": ">=v1.0.0-beta.1"
+		"bigmancozmo.emotes-api": ">=v1.0.0-beta.2"
 	},
 	"resources": {
 		"spritesheets": {
