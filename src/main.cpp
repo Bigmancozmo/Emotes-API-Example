@@ -17,4 +17,10 @@ $on_mod(Loaded) {
 
 	// remember to finalize it
 	myRegistry->finalize();
+	
+	
+	// this part showcases having a second registry
+	auto myOtherRegistry = CustomEmoteRegistry::create("bye");
+	myRegistry->addEmote(CustomEmote::create("robert", "robert.png"_spr)->setFlipX(true));
+	myRegistry->finalize();
 }
